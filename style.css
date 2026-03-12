@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 20%;
+    border: 1vw solid black;
+    margin: 2vw;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.purple{
+    background-color: #d19ff9;
+}
+
+.flash{
+    background-color: white;
+}
+
+
+@media (max-width: 600px) {
+  .btn {
+    width: 40vw;
+    height: 40vw;
+    margin: 3vw;
+  }
+}
+
+h1 {
+  font-size: 4vw; /* scales with viewport width */
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5vw;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+}
+
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
