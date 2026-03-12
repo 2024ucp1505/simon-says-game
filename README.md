@@ -2,6 +2,9 @@
 
 A classic **Simon Says** memory game built with vanilla HTML, CSS, and JavaScript.
 
+## Play online
+**link** https://simon-says-game-lokesh.netlify.app/
+
 ## How to Play
 
 1. **Press any key** to start the game.
