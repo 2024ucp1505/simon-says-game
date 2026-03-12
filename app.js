@@ -12,6 +12,13 @@ document.addEventListener("keypress" , function(){
     }
 });
 
+document.querySelector(".start-btn").addEventListener('click' , function(){
+    if(started == false){
+        game();
+        started = true;
+    }
+});
+
 function buttonFlash(btn){
     btn.classList.add("flash");
     setTimeout(() => {
@@ -56,7 +63,7 @@ function checkAns(idx){
         setTimeout(()=>{
             document.querySelector("body").style.backgroundColor = "white";
         } , 150);
-        h2.innerHTML = `OOPS!<br>Your Score was <b>${level}</b><br>Press any key to restart`;
+        h2.innerHTML = `OOPS!<br>Your Score was <b>${level}</b><br>Press any key/start button to restart`;
         reset();
     }
 };

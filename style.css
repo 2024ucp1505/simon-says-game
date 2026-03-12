@@ -2,6 +2,16 @@ body{
     text-align: center;
 }
 
+.start-btn{
+    padding: 1vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+    border: none;
+    background-color: #f99b45;
+    color: white;
+    cursor: pointer;
+}
+
 .btn{
     height: 20vw;
     width: 20vw;
@@ -44,7 +54,18 @@ body{
     height: 40vw;
     margin: 3vw;
   }
-}
+  .start-btn{
+    padding: 1vw;
+    font-size: 2vw;
+    padding: 2vw;
+    font-size: 4vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: #f99b45;
+    color: white;
+    cursor: pointer;
+  }
+} 
 
 h1 {
   font-size: 4vw; /* scales with viewport width */
